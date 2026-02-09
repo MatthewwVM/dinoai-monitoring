@@ -26,7 +26,7 @@ A basic monitoring stack for my AI server running ollama on a nvidia 3080ti.
   - Disk usage
   - Network traffic
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Install the Stack
 
@@ -79,7 +79,7 @@ http://<host-ip>:3001
 | **NVIDIA GPU** | 12239 | GPU temp, fan, power, utilization |
 | **Node Exporter Server Metrics** | 11074 | Alternative system dashboard |
 
-## 🔧 Management Commands
+## Management Commands
 
 ### Start the stack:
 ```bash
@@ -112,7 +112,7 @@ docker compose ps
 - **Grafana:** http://<host_ip>:3001
 
 
-## 📈 Metrics Available
+## Metrics Available
 
 ### GPU Metrics (from nvidia-smi):
 - `nvidia_gpu_temperature_celsius` - GPU temperature
