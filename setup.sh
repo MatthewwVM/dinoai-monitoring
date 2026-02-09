@@ -29,7 +29,7 @@ sudo modprobe k10temp 2>/dev/null || true
 
 # Check NVIDIA drivers
 if ! command -v nvidia-smi &> /dev/null; then
-    echo "❌ NVIDIA drivers not found. Please install NVIDIA drivers first."
+    echo "NVIDIA drivers not found. Please install NVIDIA drivers first."
     exit 1
 fi
 

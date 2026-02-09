@@ -1,7 +1,7 @@
 # Grafana Monitoring Stack
 A basic monitoring stack for my AI server running ollama on a nvidia 3080ti.
 
-## What You'll Monitor
+## What This will Monitor
 
 - **GPU Metrics:**
   - Temperature
